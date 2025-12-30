@@ -1,0 +1,15 @@
+
+import datetime
+import time
+
+def print_current_datetime():
+    # Get the current date and time
+    current_time = datetime.datetime.now()
+    print("Current Date and Time:", current_time)
+
+    # Format the date and time (e.g., Month/Day/Year, Hour:Minute:Second)
+    formatted_time = current_time.strftime("%m/%d/%Y, %H:%M:%S")
+    print("Formatted Date and Time:", formatted_time)
+
+# Call the function
+print_current_datetime()
